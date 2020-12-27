@@ -50,7 +50,7 @@ let NERDTreeIgnore = ['__pycache__', '\.pyc$', '\.o$', '\.so$', '\.a$', '\.swp',
 let NERDTreeShowHidden=1
 let g:NERDTreeWinPos="left"
 let g:NERDTreeDirArrows=0
-map <C-t> :nerd<CR>
+map <C-t> :NERDTreeToggle<CR>
 
 " ==== Syntastic
 let g:syntastic_always_populate_loc_list = 1
