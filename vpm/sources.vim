@@ -40,7 +40,6 @@ Plugin 'cakebaker/scss-syntax.vim'
 
 " Templating
 Plugin 'mitsuhiko/vim-jinja'
-Plugin 'file:///home/ianertson/workspace/gpp-vim'
 
 " Python
 Plugin 'Vimjas/vim-python-pep8-indent'
