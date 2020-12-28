@@ -41,7 +41,10 @@ set colorcolumn=80
 " To Remove a plugin
 "set runtimepath-=~/.vim/bundle/<plugin-folder>
 
-" Key maps 
+" g: -> Global setting
+" b: -> Buffer setting
+
+" Keymaps
 imap ii <Esc>
 
 " ==== FZF Config
