@@ -41,8 +41,11 @@ set colorcolumn=80
 " To Remove a plugin
 "set runtimepath-=~/.vim/bundle/<plugin-folder>
 
-
+" Key maps 
 imap ii <Esc>
+
+" ==== FZF Config
+source $HOME/.vim/pluginConfig/fzf.vim
 
 " ==== NERDTREE
 let NERDTreeIgnore = ['__pycache__', '\.pyc$', '\.o$', '\.so$', '\.a$', '\.swp', '*\.swp', '\.swo', '\.swn', '\.swh', '\.swm', '\.swl', '\.swk', '\.sw*$', '[a-zA-Z]*egg[a-zA-Z]*', '.DS_Store']
@@ -116,4 +119,3 @@ let g:pymode_indent = 0
 " ==== custom commands
 command JsonPretty execute ":%!python -m json.tool"
 set secure
-
