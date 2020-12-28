@@ -5,16 +5,29 @@ Plugin 'morhetz/gruvbox'
 
 " Trees | Navigation
 Plugin 'scrooloose/nerdtree'
-Plugin 'easymotion/vim-easymotion'
-Plugin 'kien/ctrlp.vim'
-Plugin 'terryma/vim-multiple-cursors'
+
+" File finder
+Plugin 'junegunn/fzf'
+Plugin 'junegunn/fzf.vim'
+Plugin 'airblade/vim-rooter'
+
+" Bottom bar
 Plugin 'bling/vim-airline'
 
 " Autocomplete | General syntax
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'scrooloose/syntastic'
+Plugin 'sheerun/vim-polyglot'
+Plugin 'prettier/vim-prettier'
+
+" Commenting sections
+Plugin 'tpope/vim-commentary'
+
+" Multiple Cursors
+Plugin 'mg979/vim-visual-multi'
+
+" Snippets
 Plugin 'SirVer/ultisnips'
-Plugin 'taglist.vim'
 
 " Git
 Plugin 'tpope/vim-fugitive'
@@ -53,4 +66,4 @@ Plugin 'octol/vim-cpp-enhanced-highlight'
 Plugin 'tikhomirov/vim-glsl'
 
 " Not sure but apparently useful
-Plugin 'vim-scripts/L9'
+P
