@@ -3,38 +3,40 @@
 ### Install tools
 
 - **Mac**
-    brew install fzf
 
-    brew install ripgrep
+        brew install fzf
 
-    brew install --HEAD universal-ctags/universal-ctags/universal-ctags
+        brew install ripgrep
 
-    brew install the_silver_searcher
+        brew install --HEAD universal-ctags/universal-ctags/universal-ctags
 
-    brew install fd `
+        brew install the_silver_searcher
+
+        brew install fd 
 
 - **Debian**
-    sudo apt install fzf
 
-    sudo apt install ripgrep
+        sudo apt install fzf
 
-    sudo apt install universal-ctags
+        sudo apt install ripgrep
 
-    sudo apt install silversearcher-ag
+        sudo apt install universal-ctags
 
-    sudo apt install fd-find 
+        sudo apt install silversearcher-ag
+
+        sudo apt install fd-find 
 
 - **Arch**
 
-    sudo pacman -S fzf
+        sudo pacman -S fzf
 
-    sudo pacman -S ripgrep
+        sudo pacman -S ripgrep
 
-    yay -S universal-ctags-git
+        yay -S universal-ctags-git
 
-    sudo pacman -S the_silver_searcher
+        sudo pacman -S the_silver_searcher
 
-    pacman -S fd 
+        pacman -S fd 
 
 
 ### Config file
