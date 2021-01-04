@@ -15,8 +15,7 @@ Plugin 'airblade/vim-rooter'
 Plugin 'bling/vim-airline'
 
 " Autocomplete | General syntax
-Plugin 'Valloric/YouCompleteMe'
-Plugin 'scrooloose/syntastic'
+Plugin 'dense-analysis/ale'
 Plugin 'sheerun/vim-polyglot'
 Plugin 'prettier/vim-prettier'
 
@@ -51,9 +50,6 @@ Plugin 'ekalinin/dockerfile.vim'
 Plugin 'ap/vim-css-color'
 Plugin 'cakebaker/scss-syntax.vim'
 
-" Templating
-Plugin 'mitsuhiko/vim-jinja'
-
 " Python
 Plugin 'Vimjas/vim-python-pep8-indent'
 Plugin 'klen/pylama'
@@ -62,8 +58,5 @@ Plugin 'nvie/vim-flake8'
 " C / C++
 Plugin 'octol/vim-cpp-enhanced-highlight'
 
-" OpenGL / GLSL
-Plugin 'tikhomirov/vim-glsl'
-
 " Not sure but apparently useful
-P
+Plugin 'vim-scripts/L9'
