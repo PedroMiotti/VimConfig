@@ -23,6 +23,7 @@ set background=dark
 set ruler
 set hidden
 set number
+set relativenumber
 set laststatus=2
 set smartindent
 set st=2 sw=2 et
@@ -58,6 +59,11 @@ nnoremap <Right> :vertical resize -2<CR>
 
 " ==== custom commands
 command JsonPretty execute ":%!python -m json.tool"
+
+" Command to wipe the register history
+command! WipeReg for i in range(34,122) | silent! call setreg(nr2char(i), []) | endfor
+
+autocmd VimEnter * WipeReg
 
 " ==== FZF Config
 source $HOME/.vim/pluginConfig/fzf.vim
@@ -118,3 +124,4 @@ set shortmess+=A
 let g:pymode_indent = 0
 
 set secure
+
