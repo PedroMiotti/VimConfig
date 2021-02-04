@@ -48,9 +48,12 @@ let g:vim_json_syntax_conceal = 0
 " b: -> Buffer setting
 
 " Keymaps
-imap ii <Esc>
+map ii <Esc>
+map <F7> "+y
+map <F8> "+p
 noremap S :%s//g<Left><Left>
-
+" display the buffer list and invoke the ':buffer' command. You can enter the desired buffer number and hit <Enter> to edit the buffer. 
+nnoremap ,b :ls<CR>:b<Space>
 " Resize window
 nnoremap <Up> :resize +2<CR> 
 nnoremap <Down> :resize -2<CR>
