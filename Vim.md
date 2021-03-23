@@ -1,7 +1,4 @@
 # ViM
-## Requirements
-* cmake
-* flake8
 
 ## Moving around
 ### Buffers
