@@ -27,7 +27,7 @@
 
 ## Formating code
 ### Pretty JSON
-> To make JSON pretty, open the file and run: `:Jsonfix`
+> To make JSON pretty, open the file and run: `:JsonPretty`
 
 ### Normal formating
 > To make things pretty run: `gg=G`
