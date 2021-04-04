@@ -10,13 +10,6 @@
 > When cursor on word, press `*` to highlight it.  
 > Press `*` again to go to next and `#` to go to previous
 
-### Other
-> `$` to go to the end of a line.
-
-> `E` to skip words forwards.
-
-> `B` to skip words backwards.
-
 ## Filetree
 > `CTRL + T` will toggle the filetree.
 
