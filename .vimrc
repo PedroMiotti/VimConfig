@@ -1,6 +1,6 @@
 set nocompatible  " be iMproved, required
 filetype off  " required
-set exrc
+set exrc 
 
 set encoding=UTF-8
 
