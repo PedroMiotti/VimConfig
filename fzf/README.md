@@ -40,7 +40,7 @@
 
 
 ### Config file
-  1. Create a dir with the name 'pluginConfig' 
+  1. Create a dir with the name 'pluginConfig' inside the ~/.vim folder
   2. Put the 'fzf.vim' file inside
   3. Save
 
