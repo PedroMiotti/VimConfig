@@ -3,7 +3,7 @@
 My config for vim
 
 
-1. Put the .vimrc in ~/.vimrc 
+1. Put the .vimrc in the home directory
 2. Install vundle (https://github.com/VundleVim/Vundle.vim)
 3. Add the vpm folder into the .vim folder.
 4. FZF config
