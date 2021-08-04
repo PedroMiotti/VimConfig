@@ -11,11 +11,11 @@
 > Press `*` again to go to next and `#` to go to previous
 
 ## Filetree
-> `CTRL + T` will toggle the filetree.
+> `CTRL + t` will toggle the filetree.
 
 ### Opening files
 > `enter` will open a file and replace the current buffer.  
-> `s` will open a file in a new buffer / split.
+> `s` will open a file in a new buffer / split horizontally.
 
 
 ## Formating code
