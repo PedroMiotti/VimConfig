@@ -12,6 +12,7 @@
 
 ## Filetree
 > `CTRL + t` will toggle the filetree.
+> `?` Opens the command pallete for the filetree
 
 ### Opening files
 > `enter` will open a file and replace the current buffer.  
